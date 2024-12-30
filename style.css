@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1437855144889-40d3933d96a1?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.logo img{
+    border-radius: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.items{
+    display: flex;
+    gap: 40px;
+    margin-top: 0.8%;
+    margin-left: 40%;
+}
+
+.items >a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.items >a:hover{
+    text-decoration: underline;
+}
+
+.sib{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgba(245, 245, 245, 0.37);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: 0.3s;
+}
+
+.sib:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.lib{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgba(245, 245, 245, 0.37);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: 0.3s;
+}
+
+.lib:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.buttons{
+    margin-top: 0.5%;
+}
+
+.ri-menu-fill{
+    display: none;
+}
+
+.p1box{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.p1box1{
+    height: 100%;
+    width: 50%;
+}
+
+.p1box2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+h1{
+    color: whitesmoke;
+    font-family: montserrat;
+    font-size: 70px;
+    margin-top: 8%;
+    margin-left: 17%;
+}
+
+h2{
+    color: whitesmoke;
+    font-family: montserrat;
+    font-size: 18px;
+    margin-left: 19%;
+    margin-top: -7%;
+}
+
+p{
+    color: whitesmoke;
+    font-family: montserrat;
+    font-size: 13px;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+
+.km{
+    padding: 8px 15px;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 0.37);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-left: -25%;
+    margin-top: -2%;
+    transition: 0.3s;
+}
+
+.km:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: #24170b;
+}
+
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+.boxx1{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxx2{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.boxx3{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxx4{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxxx11{
+    height: 350px;
+    width: 290px;
+    background-image: url(https://images.unsplash.com/photo-1468141589425-dcddef77ddad?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 3%;
+    transition: 400ms;
+}
+
+.boxxx21{
+    height: 300px;
+    width: 340px;
+    background-image: url(https://images.unsplash.com/photo-1501389040983-5c22cb186487?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 5%;
+    margin-left: -6%;
+    margin-top: 8%;
+    transition: 400ms;
+}
+
+.boxxx22{
+    height: 380px;
+    width: 340px;
+    background-image: url(https://images.unsplash.com/photo-1690996229259-e854284adf74?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    margin-left: -6%;
+    margin-bottom: 1%;
+    transition: 400ms;
+}
+
+.boxxx32{
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1536320439102-e28493dade27?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 8%;
+    transition: 400ms;
+}
+
+.boxxx41{
+    height: 300px;
+    width: 310px;
+    background-image: url(https://images.unsplash.com/photo-1482618606784-2ca7968c062e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 5%;
+    transition: 400ms;
+}
+
+.boxxx42{
+    height: 250px;
+    width: 310px;
+    background-image: url(https://images.unsplash.com/photo-1518296911585-f13a34dee26e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 8%;
+    margin-left: 3%;
+    transition: 400ms;
+}
+
+
+.boxxx11:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.boxxx21:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.boxxx22:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+.boxxx32:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+.boxxx41:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+.boxxx42:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: #24170b;
+    display: none;
+}
+
+.page4{
+    height: 110%;
+    width: 100%;
+    background-color: #24170b;
+    display: none;
+}
+
+
+
+
+
+
